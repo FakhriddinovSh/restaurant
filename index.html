@@ -4,10 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>scss-template</title>
+    <title>Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    
+    <!-- <header class="container"> -->
+        <nav class="navbar">
+            <a class="navbar__logo" href="#">
+                <img src="./img/header__images/LOGO.png" alt="Logo">
+            </a>
+            <ul class="navbar__nav">
+                <li class="navbar__nav__item">ГЛАВНАЯ</li>
+                <li class="navbar__nav__item">МЕНЮ</li>
+                <li class="navbar__nav__item">О НАС</li>
+                <li class="navbar__nav__item">БРОНЬ</li>
+            </ul>
+            <img class="korzina" src="./img/header__images/korzina.png" alt="Korzina">
+            
+            <div class="navbar__contact">
+                <div class="navbar__contact__img">
+                    <img src="./img/header__images/phone__img.png" alt="Phone">
+                </div>
+                <div class="navbar__contact__content">
+                    <p class="navbar__contact__content__desc">+999-888-76-54</p>
+                    <p class="navbar__contact__content__desc">Свяжитесь с нами для <br>
+                    бронирования</p>
+                </div>
+            </div>
+
+            <div class="navbar__button">
+                <a href="#">ЗАКАЗ СТОЛИКА</a>
+            </div>
+        </nav>
+
+        <div class="header">
+            <h2 class="header__title">Добро пожаловать в</h2>
+            <h1 class="header__title">Наш ресторан</h1>
+            <p class="header__desc">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+            <div class="header__btn">VIEW MENU</div>
+        </div>
+        <!-- </header> -->
+        <!-- Header ended -->
+
+        <!-- Cards section -->
+        <section class="container">
+            <div class="box">
+                <div class="card">
+                    <h1 class="card__title">Магическая Атмосфера</h1>
+                    <p class="card__desc">В нашем заведении царит магическая атмосфера
+                        наполненная вкусными ароматами</p>
+                </div>
+                <div class="card">
+                    <h1 class="card__title">Лучшее качество Еды</h1>
+                    <p class="card__desc">В нашем заведении царит магическая атмосфера
+                        наполненная вкусными ароматами</p>
+                </div>
+                <div class="card">
+                    <h1 class="card__title">Магическая Атмосфера</h1>
+                    <p class="card__desc">В нашем заведении царит магическая атмосфера
+                        наполненная вкусными ароматами</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- History section -->
+        <section class="container">
+            <div class="history">
+                <div class="history__left">
+                    <h1>Наша <span style="color: #FF7400;">История</span></h1>
+                    <p>Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</p>
+                </div>
+
+                <div class="history__right">
+                </div>
+            </div>
+        </section>
 </body>
 </html>

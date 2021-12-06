@@ -1,0 +1,54 @@
+.history{
+    margin-top: 166px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    &__left{
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+    }
+    &__left > h1{
+        font-family: 'Tinos' sans-serif;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #000000;
+        text-align: center;
+    }
+    &__left > p{
+        font-family: "Open sans" sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+    &__right{
+        position: relative;
+        margin-left: 100px;
+        width: 49%;
+        background: url(../img/history__images/1.png);
+        background-repeat: no-repeat;
+    }
+    &__right::after{
+        content: "";
+        position: absolute;
+        background: url(../img/history__images/2.png);
+        background-repeat: no-repeat;
+        width: 255px;
+        height: 430px;
+        left: 100px;
+        top: -20px;
+        z-index: -1;
+    }
+    &__right::before{
+        content: "";
+        position: absolute;
+        background: url(../../img/history__images/3.png);
+        background-repeat: no-repeat;
+        width: 255px;
+        height: 399px;
+        left: 200px;
+        top: 200px;
+    }
+}

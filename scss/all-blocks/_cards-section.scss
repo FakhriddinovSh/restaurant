@@ -1,0 +1,48 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    margin-right: 31px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-top: 130px;
+    background-color: white;
+    border: 1px solid rgba(187, 186, 186, 0.486);
+    box-shadow: 0 0 10px rgba(187, 186, 186, 0.486);
+    width: 349px;
+    z-index: -1;
+    height: 328px;
+    flex-wrap: wrap;
+    &__title{
+        margin-top: 139px;
+        text-align: center;
+        font-family: 'Tinos', serif;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        padding-left: 43px;
+    }
+    &__desc{
+        margin-top: -10px;
+        font-family: 'Tinos', serif;
+        font-weight: 400;
+        color:#656363;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
+.card::after{
+    content: "";
+    position: absolute;
+    background: url(../../img/header__images/idish.png);
+    background-repeat: no-repeat;
+    width: 126px;
+    height: 104px;
+    top: 35px;
+    left: 35%;
+}
